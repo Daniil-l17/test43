@@ -1,113 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 @tailwind components;
+@tailwind base;
 @tailwind utilities;
-*{
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-body{
-  font-family: "Roboto", sans-serif;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #f5f5f5;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main{
-  box-shadow: 0px 1px 15px -2px rgba(0,0,0,0.58);
-  -webkit-box-shadow: 0px 1px 15px -2px rgba(0,0,0,0.58);
-  -moz-box-shadow: 0px 1px 15px -2px rgba(0,0,0,0.58);
-}
-
-
-
-/* Reset and base styles  */
-
-
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-/* Links */
-
-a, a:link, a:visited  {
-    text-decoration: none;
-}
-
-a:hover  {
-    text-decoration: none;
-}
-
-/* Common */
-
-aside, nav, footer, header, section, main {
-	display: block;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    font-size: inherit;
-	font-weight: inherit;
-}
-
-ul, ul li {
-	list-style: none;
-}
-
-img {
-	vertical-align: top;
-}
-
-img, svg {
-	max-width: 100%;
-	height: auto;
-}
-
-address {
-  font-style: normal;
-}
-
-/* Form */
-
-input, textarea, button, select {
-	font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
-}
-
-input::-ms-clear {
-	display: none;
-}
-
-button, input[type="submit"] {
-    display: inline-block;
-    box-shadow: none;
-    background-color: transparent;
-    background: none;
-    cursor: pointer;
-}
-
-input:focus, input:active,
-button:focus, button:active {
-    outline: none;
-}
-
-button::-moz-focus-inner {
+* {
+	margin: 0;
 	padding: 0;
-	border: 0;
+	border: none;
 }
 
-label {
-	cursor: pointer;
+body {
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #f5f5f5;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-legend {
-	display: block;
+.main {
+	box-shadow: 0px 1px 15px -2px rgba(0, 0, 0, 0.58);
+	-webkit-box-shadow: 0px 1px 15px -2px rgba(0, 0, 0, 0.58);
+	-moz-box-shadow: 0px 1px 15px -2px rgba(0, 0, 0, 0.58);
+}
+
+input {
+	outline: none;
+	color: black !important;
 }
